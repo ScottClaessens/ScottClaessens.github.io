@@ -1,0 +1,107 @@
+---
+layout: post
+title:  Osotua and Arizona
+date: 2017-09-27 19:51:00
+description: 
+---
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/assets/img/sunset_in_phoenix.jpg" alt="" title="Sunset in Phoenix"/>
+</div>
+
+I am currently living in Phoenix, Arizona, and wondering how the hell I got here.
+
+It's been three weeks since my flight landed in the desert. Midnight, I arrived, and yet even with the pitch-black sky it felt like I was disembarking from the plane directly into an oven. The heat here is tremendous: dry and unyielding. It's thankfully cooling down as we get closer to winter, but still, as an Englishman, I'm taking time to adapt.
+
+So far, I've been living the dream. Rooftop parties, 2am diner food, desert hiking, glorious sunsets, late-night swimming... not to mention the academic side of life, the whole reason I'm here. The buzz of an American university, filled with enthusiastic, beautiful people, being inquisitive every day. Walking through campus on that first sunny day, with skateboards and bicycles flying past me, was like being in a movie.
+
+People hear my accent and do a double-take, often following up with "How come you're in Phoenix?" So I tell them. At the beginning of this year, my research supervisor for my Masters came to Arizona State University to give a talk. Through him, I heard about the great work being done here, and so I got in touch with Athena Aktipis, co-director of "[The Human Generosity Project](http://www.humangenerosity.org/){:target="_blank"}". The HGP is an inter-disciplinary research effort, aimed at understanding cooperative behaviour in humans. When I approached Athena, though, getting involved with the HGP was not on my mind at all. I just innocently wanted some advice on a particular modelling methodology she had utilised in some of her previous work. But by the end of our Skype call, I not only had some resources to answer my question, but also an offer to travel out to Arizona myself to complete a three-month internship, funding for flights and accommodation included.
+
+How could I not say yes?
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/assets/img/arizona_int_students.jpg" alt="" title="International Students in Phoenix"/>
+</div>
+
+It's been a wild, hectic few weeks. On the weekdays I'm very busy, knuckling down with programming until the late hours, or attending seminars and talks, or acting as a teaching assistant in Athena's Evolutionary Psychology undergraduate course. In contrast, Arizona opens up to me on the weekends. With beautiful desert landscapes a mere bus ride away, and then the college atmosphere in the evenings, both my outdoorsy side and my party side are completely satisfied by Sunday afternoon, before the office calls again on Monday morning. It's a weekly loop of exploration, both academic and touristy, and I'm loving it.
+
+<hr>
+
+In this blog post, though, I want to talk more about my weekdays than my weekends. I know what you're thinking: isn't the weekend when all the good stuff is happening? While that may be true, during my internship out here I'm studying something rather interesting during the week, and I want to share my excitement about it with you. It's related to the word in the title of this blog post that you probably haven't heard before, and neither had I before coming here: *osotua* (pronounced oso-twa).
+
+What is osotua? Well, let me take you to East Africa, to meet a people called the [Maasai](https://en.wikipedia.org/wiki/Maasai_people){:target="_blank"}. The Maasai people live in southern Kenya and northern Tanzania. They are pastoralists; their livelihoods centre on herds of cattle, which provide all the milk and meat they need for themselves and their families. They are survivors, with [the necessary culturally-acquired skills to farm in sparse deserts and scrublands](http://news.bbc.co.uk/2/hi/africa/7568695.stm){:target="_blank"}. The adaptability of the Maasai in the face of ecological adversity is an important theme that we'll come back to later.
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/assets/img/maasai3.jpg" alt="" title="The Maasai"/>
+</div>
+
+What's so interesting about the Maasai, at least to me, is that they are extremely generous to others. Let's say that you and I are both Maasai. If, one day, I woke up and all of the cattle in my herd had been wiped out overnight by theft, or disease, you would happily come to my aid. The Maasai are known to give substantial amounts of cattle to others who are in need, and there need be no benefit to themselves in doing so. They even have a name for this seemingly altruistic gift-giving system: *osotua.* The closest English translation of osotua is "umbilical cord", which sums up the system quite nicely. If I help you in a time of need, a bond is created between the two of us. We become “isotuatin”, bound by a shared agreement to help each other in dire circumstances.
+
+Osotua is so interesting because it is a cooperative system. The Maasai are giving resources to others when they are in need, at a personal cost to themselves, and they apparently do not receive any benefits from the "altruistic" act. Could it be that this is a rare example of *pure* altruism? The kind of selfless act all but bereft from nature?
+
+At this point, a cynic could stand up and declare, "Actually, there's nothing selfless about this osotua system at all. What we're seeing is a clear example of tit-for-tat reciprocity: you scratch my back, and I'll scratch yours later. Robert Axelrod (1984) showed back in the 1980's that reciprocity can lead to the evolution of cooperation, so this is nothing new!"
+
+(If you've never heard of tit-for-tat, reciprocity, or Robert Axelrod's repeated Prisoner's Dilemma before, [here](http://ncase.me/trust/){:target="_blank"} is a fun interactive way to learn about it.)
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/assets/img/direct_reciprocity.jpg" alt="" title="Direct Reciprocity"/>
+</div>
+
+In fairness, the cynic would have a point. I mean, osotua is called umbilical cord for a reason. No gift, even in a time of need, is really free. Once you give to me, we are binded by the tie of osotua for life. Even if I die, my children inherit the arrangement. In this sense, osotua is immutable, and with this permanent connection comes a *reciprocal* agreement to help when the other is in need. You scratch my back now, and I am *required* to scratch your back later, when you need me to.
+
+However, there's an issue with this reciprocity explanation. That is, while the arrangement of osotua itself is reciprocal, the *actual resources transferred* do not abide by the laws of reciprocity at all. If reciprocity were to explain the osotua gift-giving system in the Maasai, we would expect that, once a relationship is established, each individual should give just as much as he receives, overall. Over time, their net balance of incomings and outgoings should equal zero. But this does not happen. In fact, if one member of an osotua relationship is more frequently in need of help than the other, then the movement of gifts can begin to look considerably uni-directional, with the other member shouldering much of their partner's burden. This does not seem like tit-for-tat at all!
+
+What's more, the Maasai themselves stress that, in an osotua relationship, exact repayment is never expected, and detailed accounts of debt are explicitly not kept. [In the words of one Maasai man](http://trbq.org/giving-without-expecting-something-in-return-is-a-key-part-maasai-life/){:target="_blank"}, "give it and forget". This contrasts from another distinct class of social exchange the Maasai partake in, known as *esile*. Esile comes with its own set of rules, separate from osotua, that start to look more like classic reciprocity. Accounts of transfers are kept and debts are repaid in full. Furthermore, the need of the receiver does not factor into negotiations. As such, exchanges become more like market transactions, rather than gifts of altruistic sentiment.
+
+This leaves the cooperation theorist with a puzzle. If reciprocity maps well onto esile, but not osotua, then how does one explain the latter? At this point, the cynic may stubbornly blabber on about genetic group selection. Perhaps this sort of cooperative behaviour has come about because it benefits the group at large, and so a group with an osotua-like system is more likely to survive than other groups. Because of this process, individuals in the group inherit an evolved psychology which carries the altruistic rule "help others who are in need".
+
+But this explanation is flawed. [Genetic group selection theories fundamentally misunderstand how natural selection works](https://www.edge.org/conversation/steven_pinker-the-false-allure-of-group-selection){:target="_blank"}. Sure, a group with an osotua-like system may survive at the expense of other groups. But as an individual *within* that group, it is better for me to let everyone else do the giving, all the while hoping I get something out of it, and doing none of the giving myself. If every individual follows this logic, the osotua system falls apart, and we're back to square one.
+
+To summarise: reciprocity cannot explain osotua; genetic group selection cannot explain... well, anything; kin selection (see my previous blog post) cannot explain osotua, as individuals are giving to unrelated others. All explanations for cooperative behaviour seem to crumble at the feet of this need-based system. In defiance of all our evolutionary theories, *could osotua partners be true altruists?*
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/assets/img/maasai4.jpg" alt="" title="A Maasai man"/>
+</div>
+
+To understand the solution to this head-scratching problem, we have to think about the word *risk*. What does it mean for something to be risky? From a definition I found online, risk is "the probability of suffering harm or loss". Something I would add to this definition is *uncertainty* about the future. If you knew with 100% certainty that an action is very likely to cause you harm later, it wouldn't be risky to act that way, it would just be plain dumb. However, if you not sure whether the action will cause you harm, acting that way is risky. Uncertainty about the probability of a negative outcome captures the kind of risk I'll be discussing here.
+
+The Maasai have to deal with risk every day. They live in an extremely volatile environment. As I mentioned before, a Maasai man could wake up one morning to discover that half of his herd has been slaughtered. Similarly, a disease could spread through the cattle like wildfire; there could be not enough rainfall in one month to sustain the whole herd; thieves could steal a substantial number of cows. There are so many sources of uncertainty in this line of work that make pastoralism a *risky* endeavour.
+
+How do the Maasai combat this risk? One way is to keep more cattle than you need, so that when you get hit, you don't get hit too hard. The excess cattle creates a buffer of sorts, protecting you from the effects of any one loss. This is an okay strategy if losses occur infrequently, but may be useless if they're more common. Furthermore, large herds of cattle are difficult to maintain alone.
+
+Another way of managing risk is to not rely on cattle so much. There may be other, more reliable ways to produce food, such as farming, that avoid the risks inherent to tending to herds of cattle. But pastoralism is so tightly weaved into the fabric of Maasai culture, and often the size of one's herd directly translates into one's reputation in the community. Reliance on more certain outcomes could prove socially damaging.
+
+Perhaps the most effective way of dealing with risk, then, at least in the Maasai, is by *risk pooling*. Risk pooling refers to "the exchange of risk from one individual or group to another". In an environment where losses affect individual's separately, and unpredictably, if two or more parties could agree to take on some portion of one another's risk, they could essentially protect each other from uncertainty. Risk pooling can act as a kind of local, social-network insurance, providing a safety net to communities under ecological volatility.
+
+<div class="img_row">
+    <img class="col two" src="{{ site.baseurl }}/assets/img/maasai2.jpg" alt="" title="A Maasai man"/>
+    <img class="col one" src="{{ site.baseurl }}/assets/img/maasai1.jpg" alt="" title="The Maasai"/>
+</div>
+
+Does this remind you of anything? Osotua is *exactly* what you would expect in a risk-pooling system. Individuals give to others who are in need, with the obligation to return the favour if they themselves need help. This fits with the idea that the Maasai often seek out osotua partners who specifically have different risk profiles from them. For example, if I live in the dry lowlands, where drought is very common, I might strike up an osotua relationship with someone who lives in the higher wetlands, where drought is less common. Then, if drought hits, I have someone to lean on who was not affected by the loss.
+
+Importantly, the implication here is that osotua is *not* purely altruistic. It is actually in an individual's self-interest to give to others in need, if that means that they will later be inclined to help. So rather than invoking reciprocity, kin selection or genetic group selection mechanisms, osotua seems to function to protect individuals from the uncertainty inherent to their environment and their particular way of life.
+
+This isn't just talk, either. The research paper that kicked off the HGP collaboration at Arizona State University was an agent-based model of osotua giving (Aktipis, Cronk & de Aguiar, 2011). Two 'agents' were created, and had to manage herds of cattle over time, similar to the Maasai. Just like real herds of cattle, these herds were subject to gradual growth, but also random negative shocks, simulating drought or famine. Furthermore, the agents could request and give cattle, according to 'requesting' and 'giving' rules that they were programmed with. The osotua exchange rules were:
+
+1. Request only if your herd size is under a minimum threshold (i.e. you *need* help)
+2. Give whenever you are requested (if you are able to, without going under the threshold yourself)
+
+When these exchange rules were compared to purely probabilistic requesting / giving (i.e. random and uncorrelated with need), the results support the hypothesised risk pooling function of osotua. Compared to all the other combinations of requesting and giving rules, the osotua rules were far more effective at maintaining large herd sizes over time. This is because agents using these rules exchange one another's risk, essentially tying their fates together.
+
+<hr>
+
+The cooperation theorist in me is satisfied. The puzzle seems to be solved. Even the cynic is happy. Osotua is not an example of pure altruism. Instead, it allows Maasai individuals to buffer themselves against ecological uncertainty. I *could* refuse to offer cattle to anyone else in need, but when I myself need help, who will be there to lend a hand? Paradoxically, long-term self-interest leads to short-term 'altruistic' giving.
+
+Athena and her team here at ASU have labelled these kinds of behaviours 'need-based transfers', and they may be a more widespread part of human nature than we think. Outside of the Maasai, I can think of dozens of examples where humans behave in extraordinarily altruistic ways to help strangers in need. My mind goes back to the awful Manchester bombing earlier this year. After the incident, homes were opened, taxi meters were turned off, and support networks were created out of nothing. It is comforting to think that this kind of behaviour may be a fundamental part of what makes us human.
+
+But there are still many questions to be answered. How do need-based systems function to pool risk on social networks? Will people resort to traditional reciprocity ("account-keeping") mechanisms when environments are less volatile? Does empathy play a role in need-based transfer systems? Much research needs to be done. In order to study need-based transfer giving, during my internship at ASU I am working to create an economic game that simulates an environment with ecological uncertainty, similar to that of the Maasai. Learning how to elicit need-based transfers in a game like this will deepen our understanding of this system, and human cooperation more broadly.
+
+Anyway, thanks for reading. Back to the weekly loop!
+
+<br>
+
+<u>References</u>
+
+- Aktipis, C. A., Cronk, L., & de Aguiar, R. (2011). Risk-pooling and herd survival: an agent-based model of a Maasai gift-giving system. *Human Ecology*, *39*(2), 131-140.
+- Axelrod, R., & Axelrod, R. M. (1984). *The evolution of cooperation*. Basic Books, AZ.
