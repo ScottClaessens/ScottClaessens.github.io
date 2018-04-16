@@ -2,15 +2,12 @@
 layout: about
 permalink: /
 title: <strong>Scott</strong> Claessens
-description: <a href="">PhD candidate at University of Auckland</a>
+description: <a href="">PhD student at University of Auckland</a>
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>Language, Culture, and Cognition Lab</p>
-    <p>University of Auckland</p>
-    <p>Auckland, New Zealand</p>
+  address:
 
 news: false
 social: true
