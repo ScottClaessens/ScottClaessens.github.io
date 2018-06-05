@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The Survival Game
-description: Risk pooling in the Maasai
+description: Risk Pooling in the Maasai
 img: /assets/img/theme1.jpg
 ---
 
