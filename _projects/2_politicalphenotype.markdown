@@ -1,7 +1,7 @@
 ---
 layout: page
-title: The Evolutionary Foundations of Political Ideology
-description: 
+title: Political Ideology
+description: Cognitive, Cultural, and Evolutionary Foundations
 img: /assets/img/theme2.jpg
 ---
 
@@ -13,7 +13,7 @@ Political ideology varies substantially between people. While traditionally such
 
 </div>
 
-The evolutionary foundations of political ideology will be the topic of my PhD in Psychology at the University of Auckland, New Zealand. Along with my supervisor [Quentin Atkinson](http://www.fos.auckland.ac.nz/~quentinatkinson/Quentin_Atkinsons_Website/Home.html){:target="_blank"}, we will study how people with different fundamental political ideologies behave in social dilemmas.
+The cognitive, cultural, and evolutionary foundations of political ideology will be the topic of my PhD in Psychology at the University of Auckland, New Zealand. Along with my supervisor [Quentin Atkinson](http://www.fos.auckland.ac.nz/~quentinatkinson/Quentin_Atkinsons_Website/Home.html){:target="_blank"}, we will study how people with different fundamental political ideologies behave in social dilemmas.
 
 <br>
 
