@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 name: Scott Claessens
-email: scott.claessens@hotmail.co.uk
+email: scott.claessens@gmail.com
 description: > # this means to ignore newlines until "url:"
   Academic website for Scott Claessens.
 footer_text: >
@@ -17,7 +17,7 @@ last_updated: # leave blank if you don't want to display last updated
 # Social integration
 # -----------------------------------------------------------------------------
 github_username: ScottClaessens
-twitter_username: ScottC2113
+twitter_username: scottclaessens
 linkedin_username: scott-claessens-887906b2
 scholar_authorid: # put your google scholar author id
 contact_note: # no note
