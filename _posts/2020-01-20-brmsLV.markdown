@@ -211,7 +211,11 @@ instead of variances, which we can get by squaring.
 brms also gives us posterior distributions for predicted factor scores.
 How similar are these to the ones lavaan gave us?
 
-![](brmsLV/unnamed-chunk-167-1.png)
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/assets/img/direct_reciprocity.jpg" alt="" title="Direct Reciprocity"/>
+</div>
+
+![](/assets/img/brmsLV/unnamed-chunk-167-1.png)
 
 In the plot above, the dots are the predicted latent variable values
 from our lavaan model, and the distributions are the posterior densities
@@ -256,7 +260,7 @@ And in the brms model:
 
     hist(post$bsp_y_miX)
 
-![](brmsLV/unnamed-chunk-171-1.png)
+![](/assets/img/brmsLV/unnamed-chunk-171-1.png)
 
 This shows that brms can handle confirmatory factor analysis and
 structural equation modelling with full Bayesian inference in Stan.
@@ -280,7 +284,7 @@ let's see how well the model predicts our outcome variable `y`.
 
     pp_check(fit3, resp = "y", nsamples = 100)
 
-![](brmsLV/unnamed-chunk-173-1.png)
+![](/assets/img/brmsLV/unnamed-chunk-173-1.png)
 
 It does a pretty good job, though more data would make this a tighter
 fit.
