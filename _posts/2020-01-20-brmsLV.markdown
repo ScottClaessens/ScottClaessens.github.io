@@ -8,7 +8,7 @@ description:
 This blog post will cover modelling latent variables in the
 [brms](https://github.com/paul-buerkner/brms) package in R.
 
-1. What are latent variables?
+What are latent variables?
 =============================
 
 Often, we are interested in studying variables which we cannot directly
@@ -25,8 +25,9 @@ that these questionnaire items predict a statistically unknown variable
 called a latent variable. This latent variable can simply be estimated,
 or can be used to predict other variables.
 
-2. Using lavaan to measure latent variables
+Using lavaan to measure latent variables
 ===========================================
+
 
     library(lavaan)
     library(tidyverse)
@@ -136,7 +137,7 @@ But if we were using Likert scales, which we often do in psychology,
 [taking the mean wouldn't be
 valid](https://journals.sagepub.com/doi/abs/10.1177/2515245918823199?journalCode=ampa).
 
-3. Using brms
+Using brms
 =============
 
 We can, however, take a Bayesian approach to this problem. The R package
@@ -210,7 +211,7 @@ instead of variances, which we can get by squaring.
 brms also gives us posterior distributions for predicted factor scores.
 How similar are these to the ones lavaan gave us?
 
-![](brmsLV_files/figure-markdown_strict/unnamed-chunk-167-1.png)
+![](brmsLV/unnamed-chunk-167-1.png)
 
 In the plot above, the dots are the predicted latent variable values
 from our lavaan model, and the distributions are the posterior densities
@@ -255,7 +256,7 @@ And in the brms model:
 
     hist(post$bsp_y_miX)
 
-![](brmsLV_files/figure-markdown_strict/unnamed-chunk-171-1.png)
+![](brmsLV/unnamed-chunk-171-1.png)
 
 This shows that brms can handle confirmatory factor analysis and
 structural equation modelling with full Bayesian inference in Stan.
@@ -279,16 +280,13 @@ let's see how well the model predicts our outcome variable `y`.
 
     pp_check(fit3, resp = "y", nsamples = 100)
 
-![](brmsLV_files/figure-markdown_strict/unnamed-chunk-173-1.png)
+![](brmsLV/unnamed-chunk-173-1.png)
 
 It does a pretty good job, though more data would make this a tighter
 fit.
 
 The latent variable capabilities of brms are very exciting, and I look
 forward to their implementation in future versions of the package!
-
-4. Session Info
-===============
 
     sessionInfo()
 
