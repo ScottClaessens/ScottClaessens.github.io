@@ -211,10 +211,6 @@ instead of variances, which we can get by squaring.
 brms also gives us posterior distributions for predicted factor scores.
 How similar are these to the ones lavaan gave us?
 
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/assets/img/direct_reciprocity.jpg" alt="" title="Direct Reciprocity"/>
-</div>
-
 ![](/assets/img/brmsLV/unnamed-chunk-167-1.png)
 
 In the plot above, the dots are the predicted latent variable values
