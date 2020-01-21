@@ -5,11 +5,20 @@ date: 2020-01-20 23:00:00
 description: 
 ---
 
+I've been absent from this blog over the past few years. It seems I've
+been busy settling myself into my PhD! This is the first blog of 2020,
+and hopefully the first of many new statistical posts disseminating
+the various tidbits I've been learning during my PhD.
+
 This blog post will cover modelling latent variables in the
-[brms](https://github.com/paul-buerkner/brms) package in R.
+[brms](https://github.com/paul-buerkner/brms) package in R. Latent
+variables are an important statistical concept in psychology, and
+I've found myself using them a lot in my PhD so far. But our options
+for statistically modelling latent variables, especially within
+Bayesian frameworks, are booming. Here's a quick foray into this area.
 
 What are latent variables?
-=============================
+-----------------------------
 
 Often, we are interested in studying variables which we cannot directly
 measure. For example, we may be interested in extraversion, a facet of
@@ -26,7 +35,7 @@ called a latent variable. This latent variable can simply be estimated,
 or can be used to predict other variables.
 
 Using lavaan to measure latent variables
-===========================================
+-------------------------------------------
 
 
     library(lavaan)
@@ -42,7 +51,7 @@ standard deviation of 2.
 
     y <- rnorm(n = 100, mean = 0, sd = 2)
 
-Now we will create a latent variable `x` that predicts `y`. To make this
+Now we will create a latent variable `x` that is correlated with `y`. To make this
 more concrete, imagine that `x` is extraversion, and `y` is something
 that is predicted by extraversion, like ability to make people laugh at
 parties.
@@ -58,7 +67,8 @@ We simulated latent `x` and observed `y` to be positively correlated.
 Unfortunately, since `x` is a latent variable, we can never know this
 correlation for certain in the real world. Instead, we need to use
 various measures of this latent variable, which we will call `z1`, `z2`,
-and `z3`, to infer `x`.
+and `z3`, to infer `x`. We add some noise around these manifest variables,
+as none of them are perfect measures of `x`.
 
     z1 <- rnorm(n = 100, mean = x, sd = 0.5)
     z2 <- rnorm(n = 100, mean = x, sd = 0.5)
@@ -129,16 +139,16 @@ not, this latent variable approach would be the most valid way forward.
 Here, just taking the mean of our continuous manifest variables gets us
 pretty close to the latent variable.
 
-    cor(d$x, apply(d[,c("z1","z2","z3")], 1, mean))
+    cor(d$x, apply(d[,c("z1","z2","z3")], 1, mean)) %>% round(2)
 
-    ## [1] 0.9935997
+    ## [1] 0.99
 
 But if we were using Likert scales, which we often do in psychology,
 [taking the mean wouldn't be
 valid](https://journals.sagepub.com/doi/abs/10.1177/2515245918823199?journalCode=ampa).
 
 Using brms
-=============
+-------------
 
 We can, however, take a Bayesian approach to this problem. The R package
 [brms](https://github.com/paul-buerkner/brms) implements Bayesian
@@ -149,13 +159,14 @@ I'd have a go here anyway.
 In confirmatory factor analysis, we set one of the factor loadings to 1
 as a constant. We cannot do this yet in brms, but we can set a stupidly
 narrow prior such that no amount of data could feasibly shift it. Then
-we use the missing data syntax in brms to estimate the latent variable.
+we use the missing data syntax `mi()` in brms to estimate the latent variable.
 
     library(brms)
 
     # add empty latent variable to data frame
     d$X <- as.numeric(NA)
 
+	# mi(x) tells brms that it is missing
     bf1 <- bf(z1 ~ 0 + mi(X)) # factor loading 1 (constant)
     bf2 <- bf(z2 ~ 0 + mi(X)) # factor loading 2
     bf3 <- bf(z3 ~ 0 + mi(X)) # factor loading 3
@@ -219,7 +230,9 @@ for each individual's Bayesian predicted factor score. They are very
 similar.
 
 Finally, we can fit a structural equation model to see if this Bayesian
-latent variable predicts `y` in the same way.
+latent variable predicts `y` in the same way. We just add another formula
+to the `brm()` call where `y` is predicted by the estimated latent variable
+`mi(x)`.
 
     # add empty latent variable
     d$X <- as.numeric(NA)
@@ -228,7 +241,7 @@ latent variable predicts `y` in the same way.
     bf2 <- bf(z2 ~ 0 + mi(X)) # factor loading 2
     bf3 <- bf(z3 ~ 0 + mi(X)) # factor loading 3
     bf4 <- bf(X | mi() ~ 0)   # latent variable
-    bf5 <- bf(y ~ 0 + mi(X))  # regression
+    bf5 <- bf(y ~ 0 + mi(X))  # added regression
 
     fit3 <- brm(bf1 + bf2 + bf3 + bf4 + bf5 + set_rescor(FALSE), data = d, 
                 prior = c(prior(normal(1, 0.000001), coef = miX, resp = z1),
@@ -254,6 +267,10 @@ And in the brms model:
 
     ## [1] 0.47
 
+Here's the posterior distribution for that regression parameter. It's
+reliably above zero, suggesting a positive effect of latent `x` on
+observed `y`.	
+	
     hist(post$bsp_y_miX)
 
 ![](/assets/img/brmsLV/unnamed-chunk-171-1.png)
@@ -287,6 +304,9 @@ fit.
 
 The latent variable capabilities of brms are very exciting, and I look
 forward to their implementation in future versions of the package!
+
+Session Info
+---------------
 
     sessionInfo()
 
