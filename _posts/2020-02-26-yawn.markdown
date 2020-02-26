@@ -184,7 +184,7 @@ confirm this?
 individual-level and study-level differences that this model accounts
 for. Let's visualise the study-level posterior differences.
 
-![](/assets/img/yawn/unnamed-chunk-21-1.png)![](yawning_files/figure-markdown_strict/unnamed-chunk-21-2.png)
+![](/assets/img/yawn/unnamed-chunk-21-1.png)![](/assets/img/yawn/unnamed-chunk-21-2.png)
 
 There are clearly large differences between studies in both the
 probability of yawning at all (the Bernoulli process) and the rate of
