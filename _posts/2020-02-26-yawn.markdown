@@ -1,3 +1,10 @@
+---
+layout: post
+title:  Analysing Data on Contagious Yawning
+date: 2020-02-26 23:24:00
+description: 
+---
+
 Recently, we published a paper in Proceedings of the Royal Society B on
 [contagious yawning in
 dogs](https://royalsocietypublishing.org/doi/full/10.1098/rspb.2019.2236).
