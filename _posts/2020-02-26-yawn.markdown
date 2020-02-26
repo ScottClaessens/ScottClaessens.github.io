@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Analysing Data on Contagious Yawning
-date: 2020-02-26 23:24:00
+title:  Analysing Data on Contagious Yawning in Dogs
+date: 2020-01-20 23:00:00
 description: 
 ---
 
@@ -45,7 +45,7 @@ demonstrator is yawning.
 Before going any further, let's have a closer look at the distribution
 of the dependent variable `numberYawns`.
 
-![](/assets/img/yawn/unnamed-chunk-3-1.png)
+![](/assets/img/yawn/unnamed-chunk-2-1.png)
 
 Since this is a count variable, we know up-front that we should probably
 model these data with a Poisson distribution. But we can see lots of
@@ -64,7 +64,7 @@ How well did this model fit the data?
 
     pp_check(m1)
 
-![](/assets/img/yawn/unnamed-chunk-6-1.png)
+![](/assets/img/yawn/unnamed-chunk-5-1.png)
 
 This model is okay. It's predicting integer data, which is correct in
 this case, though it seems to be underestimating the number of zeroes
@@ -94,7 +94,7 @@ Does this model fit a little better?
 
     pp_check(m2)
 
-![](/assets/img/yawn/unnamed-chunk-10-1.png)
+![](/assets/img/yawn/unnamed-chunk-9-1.png)
 
 It still seems to be underestimating zeroes and overestimating ones.
 
@@ -125,7 +125,7 @@ over" the first hurdle).
 
     pp_check(m3)
 
-![](/assets/img/yawn/unnamed-chunk-14-1.png)
+![](/assets/img/yawn/unnamed-chunk-13-1.png)
 
 This model seems to be doing better with the zeroes and ones. Has it
 improved the fit?
@@ -167,7 +167,7 @@ within studies `(1|study/ID)`, for both parts of the model.
 
     pp_check(m4)
 
-![](/assets/img/yawn/unnamed-chunk-20-1.png)
+![](/assets/img/yawn/unnamed-chunk-19-1.png)
 
 This is the best fit we've seen yet. Does a final model comparison
 confirm this?
@@ -184,7 +184,7 @@ confirm this?
 individual-level and study-level differences that this model accounts
 for. Let's visualise the study-level posterior differences.
 
-![](/assets/img/yawn/unnamed-chunk-22-1.png)![](/assets/img/yawn/unnamed-chunk-22-2.png)
+![](/assets/img/yawn/unnamed-chunk-21-1.png)![](/assets/img/yawn/unnamed-chunk-21-2.png)
 
 There are clearly large differences between studies in both the
 probability of yawning at all (the Bernoulli process) and the rate of
