@@ -1,3 +1,10 @@
+---
+layout: post
+title:  Analysing Data on Contagious Yawning
+date: 2020-02-26 23:53:00
+description: 
+---
+
 Recently, we published a paper in Proceedings of the Royal Society B on
 [contagious yawning in
 dogs](https://royalsocietypublishing.org/doi/full/10.1098/rspb.2019.2236).
@@ -65,7 +72,7 @@ and overestimating the number of ones. This is likely because, as we've
 already established, these data are severely zero-inflated.
 
 Before tackling that, though, we should first acknowledge a fundamental
-flaw in the model we have already fit. It does not take into account
+flaw in the model we have already fitted. It does not take into account
 different exposure lengths in different studies.
 
     unique(d$secs)
