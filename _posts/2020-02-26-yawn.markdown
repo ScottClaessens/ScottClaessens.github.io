@@ -1,0 +1,208 @@
+---
+layout: post
+title:  Analysing Data on Contagious Yawning
+date: 2020-02-26 22:25:00
+description: 
+---
+
+Recently, we published a paper in Proceedings of the Royal Society B on
+[contagious yawning in
+dogs](https://royalsocietypublishing.org/doi/full/10.1098/rspb.2019.2236).
+The paper argued against the idea that contagious yawning is a valid
+measure of empathy, showing that several predictions of the
+contagious-yawning-empathy hypothesis were not met in a re-analysis of
+previous studies of dogs and a novel experiment.
+
+As my first scientific publication, I'm very proud of this paper.
+However, I'm not going to go into much detail about the arguments in the
+paper. Instead, I want to focus on the statistical analyses. We came
+across some challenges when analysing these data, and I'd like to get
+our approach down on paper so that someone with the same kind of dataset
+might be helped somewhere down the line.
+
+First, let's have a look at the data in question.
+
+    # you can find these data at https://osf.io/qru5s/
+    d <- read.csv("yawnReanalysis.csv")
+    head(d)
+
+    ##   ID    study numberYawns age gender trial condition presentation type demonstrator   familiar live secs
+    ## 1 P1 JM et al           1   5      M     2   Yawning          V+A  Pet        Human Unfamiliar Live  300
+    ## 2 P2 JM et al           5   8      M     2   Yawning          V+A  Pet        Human Unfamiliar Live  300
+    ## 3 P3 JM et al           1   7      M     1   Yawning          V+A  Pet        Human Unfamiliar Live  300
+    ## 4 P4 JM et al           1   4      F     2   Yawning          V+A  Pet        Human Unfamiliar Live  300
+    ## 5 P5 JM et al           2   5      F     1   Yawning          V+A  Pet        Human Unfamiliar Live  300
+    ## 6 P6 JM et al           0  15      M     2   Yawning          V+A  Pet        Human Unfamiliar Live  300
+
+This dataset combines the data from six previous studies of contagious
+yawning in dogs. Each study used the following methodology: observe the
+dog for a particular observation window (`secs`) and count the number of
+yawns (`numberYawns`). There are two different experimental conditions
+(`condition`) in these studies: (1) a Control condition where a
+demonstrator is not yawning, and (2) a Yawning condition where a
+demonstrator is yawning.
+
+Before going any further, let's have a closer look at the distribution
+of the dependent variable `numberYawns`.
+
+![](/assets/img/yawn/unnamed-chunk-2-1.png)
+
+Since this is a count variable, we know up-front that we should probably
+model these data with a Poisson distribution. But we can see lots of
+zeroes in these data too - later, we'll try and deal with these. But for
+now, let's just fit a simple intercept-only Poisson model. We use the
+package `brms` for all our modelling.
+
+    library(brms)
+
+    # intercept-only Poisson model
+    m1 <- brm(numberYawns ~ 1, data = d, family = poisson)
+    m1 <- add_criterion(m1, "loo")
+    save(m1, file = "m1.rda")
+
+How well did this model fit the data?
+
+    pp_check(m1)
+
+![](/assets/img/yawn/unnamed-chunk-5-1.png)
+
+This model is okay. It's predicting integer data, which is correct in
+this case, though it seems to be underestimating the number of zeroes
+and overestimating the number of ones. This is likely because, as we've
+already established, these data are severely zero-inflated.
+
+Before tackling that, though, we should first acknowledge a fundamental
+flaw in the model we have already fit. It does not take into account
+different exposure lengths in different studies.
+
+    unique(d$secs)
+
+    ## [1] 300  50 180 600
+
+Some studies observed the dogs for 50 seconds, some studies observed
+them for 10 minutes. This is very important - some studies may have
+simply observed more yawns because they measured for longer. To deal
+with this, we include an "offset" in our model. This basically turns the
+left hand side of the equation into a "rate per second".
+
+    # intercept-only Poisson model with offset
+    m2 <- brm(numberYawns ~ 1 + offset(log(secs)), data = d, family = poisson)
+    m2 <- add_criterion(m2, "loo")
+    save(m2, file = "m2.rda")
+
+Does this model fit a little better?
+
+    pp_check(m2)
+
+![](/assets/img/yawn/unnamed-chunk-9-1.png)
+
+It still seems to be underestimating zeroes and overestimating ones.
+
+    loo_compare(m1, m2)
+
+    ##    elpd_diff se_diff
+    ## m2   0.0       0.0  
+    ## m1 -61.1      16.2
+
+Nevertheless, leave-one-out cross-validation suggests that including the
+offset does improve model fit.
+
+Let's now try and improve model fit even more by accounting for
+zero-inflation. The class of model we settled on in the paper is a
+hurdle Poisson model. This is a mixture model that simultaneously models
+two separate processes. The first process is a Bernoulli process that
+determines whether the dependent variable is zero or a positive count.
+The second process is a Poisson process that determines the count once
+we know the dependent variable is positive (i.e. the model has "got
+over" the first hurdle).
+
+    # intercept-only hurdle Poisson model with offset
+    m3 <- brm(bf(numberYawns ~ 1 + offset(log(secs)), # Poisson process
+                 hu ~ 1),                             # Bernoulli process
+              data = d, family = hurdle_poisson)
+    m3 <- add_criterion(m3, "loo")
+    save(m3, file = "m3.rda")
+
+    pp_check(m3)
+
+![](/assets/img/yawn/unnamed-chunk-13-1.png)
+
+This model seems to be doing better with the zeroes and ones. Has it
+improved the fit?
+
+    loo_compare(m2, m3)
+
+    ##    elpd_diff se_diff
+    ## m3  0.0       0.0   
+    ## m2 -1.2      15.0
+
+Interestingly, it has, but not by a huge amount.
+
+What's the probability of zeroes predicted by this model?
+
+    post <- posterior_samples(m3)
+    median(inv_logit_scaled(post$b_hu_Intercept)) %>% round(2)
+
+    ## [1] 0.67
+
+And the rate of yawning per minute?
+
+    (exp(post$b_Intercept) * 60) %>% median() %>% round(2)
+
+    ## [1] 0.17
+
+There's one other aspect of the data that we haven't taken into account.
+Model `m3` does not acknowledge that observations are nested within
+individuals, and individuals are nested within studies. We can account
+for this non-independence by including random intercepts for individuals
+within studies `(1|study/ID)`, for both parts of the model.
+
+    # intercept-only hurdle Poisson model with offset and random intercepts
+    m4 <- brm(bf(numberYawns ~ 1 + offset(log(secs)) + (1|study/ID),
+                 hu ~ 1 + (1|study/ID)), 
+              data = d, family = hurdle_poisson,
+              control = list(adapt_delta = 0.9))
+    m4 <- add_criterion(m4, "loo")
+    save(m4, file = "m4.rda")
+
+    pp_check(m4)
+
+![](/assets/img/yawn/unnamed-chunk-19-1.png)
+
+This is the best fit we've seen yet. Does a final model comparison
+confirm this?
+
+    loo_compare(m1, m2, m3, m4)
+
+    ##    elpd_diff se_diff
+    ## m4    0.0       0.0 
+    ## m3  -56.7      11.1 
+    ## m2  -57.8      13.2 
+    ## m1 -119.0      18.9
+
+`m4` knocks it out of the park. Clearly there are important
+individual-level and study-level differences that this model accounts
+for. Let's visualise the study-level posterior differences.
+
+![](/assets/img/yawn/unnamed-chunk-21-1.png)![](/assets/img/yawn/unnamed-chunk-21-2.png)
+
+There are clearly large differences between studies in both the
+probability of yawning at all (the Bernoulli process) and the rate of
+yawning (the Poisson process). For example, SIL et al. has a high
+probability of zeroes and large uncertainty in yawning rate, whereas BT
+et al. has a low probability of zeroes and more certainty in the yawning
+rate. These differences are important to account for in the model.
+
+And so, with incremental steps, we have created a model skeleton that we
+think is describing the data generating process well. But we haven't
+even added any predictors yet! I will leave it up to the interested
+reader to add `condition` as a predictor. You can do this for both
+processes in the hurdle model (i.e. predicting the probability of zeroes
+and the rate of yawning separately). Or if you want to just find out the
+results of this kind of analysis, you can check out [our
+paper](https://royalsocietypublishing.org/doi/full/10.1098/rspb.2019.2236).
+
+Hopefully, this blog post will encourage people to use their expertise
+and prior knowledge about the data to find a model that is suited to
+them. Rather than blindly throwing everything into an ANOVA and seeing
+what works!
