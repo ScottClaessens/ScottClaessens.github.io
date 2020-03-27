@@ -105,7 +105,9 @@ These models include `response` as the ordinal DV, participant `ID`
 (1-1032) as a random intercept, and also `behaviour` (1-4) as another
 random intercept. Main effects and interactions for source and message
 are also included as random slopes within `behaviour`, meaning that each
-behaviour has its own effect of source and message.
+behaviour has its own effect of source and message. For example, the formula
+for model `m5` is `response ~ 1 + source_condition*message_condition + 
+(1 + source_condition*message_condition | behaviour) + (1 | ID).`
 
 Before digging into the models, what does model comparison tell us? We
 use leave-one-out cross-validation to compare models.
