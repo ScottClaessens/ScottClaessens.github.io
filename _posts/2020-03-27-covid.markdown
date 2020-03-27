@@ -10,10 +10,8 @@ Recently, Everett *et al.* published a
 different moral messages on US participants' intentions to engage in
 protective-behaviour relating to COVID-19.
 
-<!--html_preserve-->
-
 <script type="application/json" data-for="htmlwidget-ca70d2c770aa39552e82">{"x":{"twid":"1241038948551610368","pars":null},"evals":[],"jsHooks":[]}</script>
-<!--/html_preserve-->
+
 With many countries around the world transitioning into full-lockdown
 status, this work is timely. It is also a testament to the power of open
 science: important scientific ideas can be disseminated quickly and
