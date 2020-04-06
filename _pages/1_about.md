@@ -6,7 +6,7 @@ description: <a href="">PhD student at University of Auckland</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   address:
 
 news: false
