@@ -6,6 +6,10 @@ description: Publications in reversed chronological order.
 years: [2020]
 ---
 
+<u>2021</u>
+
+Krems, J. A., <b>Claessens, S.</b>, Fales, M. R., Campenni, M., Haselton, M. G., & Aktipis, A. (2021). An agent-based model of the female rivalry hypothesis for concealed ovulation in humans. <i>Nature Human Behaviour</i>. <a href="https://www.nature.com/articles/s41562-020-01038-9">https://www.nature.com/articles/s41562-020-01038-9</a>
+
 <u>2020</u>
 
 <b>Claessens, S.</b>, Kyritsis, T., & Atkinson, Q. D. (2020). Revised analysis shows relational mobility predicts sacrificial behavior in Footbridge but not Switch or Loop trolley problems. <i>Proceedings of the National Academy of Sciences</i>, <i>117</i>(24), 13203-13204. <a href="https://www.pnas.org/content/117/24/13203.short">https://www.pnas.org/content/117/24/13203.short</a>
