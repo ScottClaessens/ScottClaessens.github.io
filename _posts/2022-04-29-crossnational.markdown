@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Controlling for cross-national non-independence in R
+title: Dealing with Non-Independence in R
 date: 2022-04-29 12:00:00
 description: 
 ---
