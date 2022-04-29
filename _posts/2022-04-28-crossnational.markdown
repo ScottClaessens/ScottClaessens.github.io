@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Dealing with Non-Independence in R
-date: 2022-04-29 12:00:00
+title: Dealing with Cross-National Non-Independence in R
+date: 2022-04-28 12:00:00
 description: 
 ---
 
