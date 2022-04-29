@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  How to control for non-independence in cross-national analyses: An R tutorial
+title:  Controlling for cross-national non-independence in R
 date: 2022-04-29 12:00:00
 description: 
 ---
