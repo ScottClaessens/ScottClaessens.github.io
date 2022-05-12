@@ -29,9 +29,10 @@ At the end of 2017, I created the **Survival Game** as a simulation of the pasto
 	The Survival Game.
 </div>
 
-The Human Generosity Project is now utilising this tool to study need-based transfer giving more closely than before. We can ask questions such as:
+The Human Generosity Project is now utilising this tool to study need-based transfer giving more closely than before. In a first study, we manipulated the visibility of resources, finding that people were more greedy and stingy when they could hide their current herd size (see paper [here](https://www.sciencedirect.com/science/article/abs/pii/S1090513820300982){:target="_blank"}). This finding has implications for understanding how risk pooling functions in societies with differences in resource visibility.
 
-+ Do need-based transfer systems succumb to cheating when resources can be hidden from others?
+We can also ask questions such as:
+
 + Do individuals follow account-keeping, reciprocal sharing rules when risks are more predictable?
 + To what extent is empathy required for need-based transfers to be effective?
 
@@ -44,5 +45,7 @@ The Survival Game is an open-source economic game, created in [oTree](http://www
 Aktipis, C. A., Cronk, L., & de Aguiar, R. (2011). Risk-pooling and herd survival: An agent-based model of a Maasai gift-giving system. *Human Ecology*, *39*(2), 131-140.
 
 Aktipis, A., De Aguiar, R., Flaherty, A., Iyer, P., Sonkoi, D., & Cronk, L. (2016). Cooperation in an uncertain world: for the Maasai of East Africa, need-based transfers outperform account-keeping in volatile environments. *Human Ecology*, *44*(3), 353-364.
+
+**Claessens, S.**, Ayers, J. D., Cronk, L., & Aktipis, A. (2021). Need-based transfer systems are more vulnerable to cheating when resources are hidden. *Evolution and Human Behavior*, *42*(2), 104-112.
 
 Cronk, L. (2007). The influence of cultural framing on play in the trust game: A Maasai example. *Evolution and Human Behavior*, *28*(5), 352-358.

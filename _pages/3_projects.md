@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: click to see things I'm currently working on
+description: click to see my different research interests
 ---
 
 {% for project in site.projects %}
