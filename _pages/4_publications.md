@@ -8,9 +8,11 @@ years: [2020]
 
 <h3>Published works</h3>
 
-<u>2021</u>
+<u>2022</u>
 
 <b>Claessens, S.</b>, Chaudhuri, A., Sibley, C. G., & Atkinson, Q. D. (2022). The evolutionary basis of political ideology. <i>The Cambridge Handbook of Political Psychology</i>, 22. <a href="https://www.cambridge.org/core/books/abs/cambridge-handbook-of-political-psychology/evolutionary-basis-of-political-ideology/292583ACC4BF03E8253F3E6397ED7360">chapter</a>
+
+<u>2021</u>
 
 Krems, J. A., <b>Claessens, S.</b>, Fales, M. R., Campenni, M., Haselton, M. G., & Aktipis, A. (2021). An agent-based model of the female rivalry hypothesis for concealed ovulation in humans. <i>Nature Human Behaviour</i>, <i>5</i>(6), 726-735. <a href="https://www.nature.com/articles/s41562-020-01038-9">paper</a>, <a href="https://osf.io/c5pq7/">data and code</a>
 
