@@ -12,7 +12,7 @@ years: [2020]
 
 <b>Claessens, S.</b>, Chaudhuri, A., Sibley, C. G., & Atkinson, Q. D. (2022). The evolutionary basis of political ideology. <i>The Cambridge Handbook of Political Psychology</i>, 22. <a href="https://www.cambridge.org/core/books/abs/cambridge-handbook-of-political-psychology/evolutionary-basis-of-political-ideology/292583ACC4BF03E8253F3E6397ED7360">chapter</a>
 
-Krems, J. A., <b>Claessens, S.</b>, Fales, M. R., Campenni, M., Haselton, M. G., & Aktipis, A. (2021). An agent-based model of the female rivalry hypothesis for concealed ovulation in humans. <i>Nature Human Behaviour</i>. <a href="https://www.nature.com/articles/s41562-020-01038-9">paper</a>, <a href="https://osf.io/c5pq7/">data and code</a>
+Krems, J. A., <b>Claessens, S.</b>, Fales, M. R., Campenni, M., Haselton, M. G., & Aktipis, A. (2021). An agent-based model of the female rivalry hypothesis for concealed ovulation in humans. <i>Nature Human Behaviour</i>, <i>5</i>(6), 726-735. <a href="https://www.nature.com/articles/s41562-020-01038-9">paper</a>, <a href="https://osf.io/c5pq7/">data and code</a>
 
 <b>Claessens, S.</b>, Ayers, J. D., Cronk, L., & Aktipis, A. (2021). Need-based transfer systems are more vulnerable to cheating when resources are hidden. <i>Evolution and Human Behavior</i>, <i>42</i>(2), 104-112. <a href="https://www.sciencedirect.com/science/article/pii/S1090513820300982">paper</a>, <a href="https://osf.io/wt2mq/">data and code</a>
 
@@ -20,7 +20,7 @@ Krems, J. A., <b>Claessens, S.</b>, Fales, M. R., Campenni, M., Haselton, M. G.,
 
 <b>Claessens, S.</b>, Kyritsis, T., & Atkinson, Q. D. (2020). Revised analysis shows relational mobility predicts sacrificial behavior in Footbridge but not Switch or Loop trolley problems. <i>Proceedings of the National Academy of Sciences</i>, <i>117</i>(24), 13203-13204. <a href="https://www.pnas.org/content/117/24/13203.short">paper</a>, <a href="https://osf.io/qxjvh/">data and code</a>
 
-<b>Claessens, S.</b>, Fischer, K., Chaudhuri, A., Sibley, C. G., & Atkinson, Q. D. (2020). The dual evolutionary foundations of political ideology. <i>Nature Human Behaviour</i>, <i>4</i>, 336–345. <a href="https://www.nature.com/articles/s41562-020-0850-9">paper</a>
+<b>Claessens, S.</b>, Fischer, K., Chaudhuri, A., Sibley, C. G., & Atkinson, Q. D. (2020). The dual evolutionary foundations of political ideology. <i>Nature Human Behaviour</i>, <i>4</i>(4), 336–345. <a href="https://www.nature.com/articles/s41562-020-0850-9">paper</a>
 
 Neilands, P., <b>Claessens, S.</b>, Ren, I., Hassall, R., Bastos, A. P., & Taylor, A. H. (2020). Contagious yawning is not a signal of empathy: no evidence of familiarity, gender or prosociality biases in dogs. <i>Proceedings of the Royal Society B</i>, <i>287</i>(1920), 20192236. <a href="https://royalsocietypublishing.org/doi/full/10.1098/rspb.2019.2236">paper</a>, <a href="https://osf.io/c2f3k/">data and code</a>
 

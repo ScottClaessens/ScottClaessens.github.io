@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Scott</strong> Claessens
-description: <a href="">PhD student at University of Auckland</a>
+description: <a href="">Postdoctoral Research Fellow at University of Auckland</a>
 
 profile:
   align: right
