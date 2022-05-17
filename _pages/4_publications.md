@@ -42,4 +42,6 @@ Ayers, J. D., Guevara Beltran, D., Alcock, J., Baciu, C., <b>Claessens, S.</b>, 
 
 <h3>Miscellaneous</h3>
 
+Bastos, A. P., <b>Claessens, S.</b>, Nelson, X. J., Welch, D., Atkinson, Q. D., & Taylor, A. H. (in prep). Is tool use really so rare? Crowdsourcing and phylogenetic inference triple the number of potential tool-using parrot species.
+
 <b>Claessens, S.</b>, Fischer, K., Forsyth, G. L., Kyritsis, T., & Atkinson, Q. D. (2021). Religion, cultural norms, and wellbeing: A Bayesian multilevel analysis [Computer software]. <a href="https://github.com/ScottClaessens/religionWellbeing">https://github.com/ScottClaessens/religionWellbeing</a>
