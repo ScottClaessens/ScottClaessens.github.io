@@ -13,6 +13,8 @@ news: false
 social: true
 ---
 
-Human cooperation is unique in the animal kingdom. While many species exhibit cooperative behaviours (i.e. benefiting another individual at a cost to oneself), these are typically directed towards kin. However, human societies are characterised by large-scale cooperation between unrelated individuals, even strangers, setting us apart from other animals. But, how is this level of cooperation maintained when free-riders could easily exploit the generosity of others?
+I'm a researcher in the evolutionary and behavioural sciences with a passion for research methods, data science, and statistics. Broadly, my research interests are cultural evolution, cooperation, political ideology, and animal cognition.
 
-To explore this question, I study **the biological and cultural evolution of human cooperation.** I use methods from experimental economics and evolutionary game theory to shed light on how and why we give to others. By understanding the origins of human cooperation, and the mechanisms by which it evolved, I believe we can motivate generosity in each other and allow cooperation to flourish in our everyday lives.
+I received my PhD from the University of Auckland in 2022. Since then, I have been working as a postdoctoral Research Fellow in the School of Psychology. My work has been published in top academic journals, including Nature Communications, Nature Human Behaviour, PNAS, and Proceedings of the Royal Society B.
+
+Over the years, I have developed an expertise in Bayesian statistics and causal inference methods, which I apply regularly in my work. I am also fluent in the R programming language, which I use to ensure that my research is fully reproducible.
