@@ -2,15 +2,26 @@
 layout: page
 permalink: /publications/
 title: publications
-description: journal articles, book chapters, pre-prints, and works in prep / under review
-years: [2020]
+description: journal articles, book chapters, and pre-prints
 ---
 
 <h3>Journal articles</h3>
 
-Atkinson, Q. D., <b>Claessens, S.</b>, Fischer, K., Forsyth, G. L., Kyritsis, T., Wiebels, K., Moreau, D. (in press). Being specific about generalisability. <i>Religion, Brain & Behavior</i>.
+<b>Claessens, S.</b>, Kyritsis, T., & Atkinson, Q. D. (2023). Cross-national analyses require additional controls to account for the non-independence of nations. <i>Nature Communications</i>, <i>14</i>(1), 5776. <a href="https://www.nature.com/articles/s41467-023-41486-1">paper</a>, <a href="https://github.com/ScottClaessens/crossNationalCorrelations">data and code</a>
 
-Hoogeveen, S. <i>et al.</i> (in press). A many-analysts approach to the relation between religiosity and well-being. <i>Religion, Brain & Behavior</i>.
+Heiman, S. L., <b>Claessens, S.</b>, Ayers, J. D., Guevara Beltrán, D., Van Horn, A., Hirt, E. R., ... & Todd, P. M. (2023). Descriptive norms caused increases in mask wearing during the COVID-19 pandemic. <i>Scientific Reports</i>, <i>13</i>(1), 11856. <a href="https://www.nature.com/articles/s41598-023-38593-w">paper</a>, <a href="https://github.com/ScottClaessens/covidMaskWearing">data and code</a>
+
+Atkinson, Q. D., <b>Claessens, S.</b>, Fischer, K., Forsyth, G. L., Kyritsis, T., Wiebels, K., Moreau, D. (2023). Being specific about generalisability. <i>Religion, Brain & Behavior</i>. <i>13</i>(3), 284-286. <a href="https://www.tandfonline.com/doi/full/10.1080/2153599X.2022.2070251">paper</a>
+
+Hoogeveen, S. <i>et al.</i> (2023). A many-analysts approach to the relation between religiosity and well-being. <i>Religion, Brain & Behavior</i>. <i>13</i>(3), 237-283. <a href="https://www.tandfonline.com/doi/full/10.1080/2153599X.2022.2070255">paper</a>, <a href="https://github.com/ScottClaessens/religionWellbeing">data and code</a>
+
+<b>Claessens, S.</b>, Sibley, C. G., Chaudhuri, A., & Atkinson, Q. D. (2023). Cooperative and conformist behavioural preferences predict the dual dimensions of political ideology. <i>Scientific Reports</i>, <i>13</i>(1), 4886. <a href="https://www.nature.com/articles/s41598-023-31721-6">paper</a>, <a href="https://osf.io/dwx8g/">code</a>
+
+Sheehan, O., Watts, J., Gray, R. D., Bulbulia, J., <b>Claessens, S.</b>, Ringen, E. J., & Atkinson, Q. D. (2023). Coevolution of religious and political authority in Austronesian societies. <i>Nature Human Behaviour</i>, <i>7</i>(1), 38-45. <a href="https://www.nature.com/articles/s41562-022-01471-y">paper</a>, <a href="https://osf.io/cm53v/">data and code</a>
+
+<b>Claessens, S.</b>, Kelly, D., Sibley, C. G., Chaudhuri, A., & Atkinson, Q. D. (2022). Cooperative phenotype predicts climate change belief and pro-environmental behaviour. <i>Scientific Reports</i>, <i>12</i>(1), 12730. <a href="https://www.nature.com/articles/s41598-022-16937-2">paper</a>, <a href="https://osf.io/d8t46/">code</a>
+
+<b>Claessens, S.</b>, & Kyritsis, T. (2022). Partner choice does not predict prosociality across countries. <i>Evolutionary Human Sciences</i>, <i>4</i>, e54. <a href="https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/partner-choice-does-not-predict-prosociality-across-countries/AD09654C7B14381F70C9D22D487CA1A8">paper</a>, <a href="https://osf.io/e528t/">data and code</a>
 
 Krems, J. A., <b>Claessens, S.</b>, Fales, M. R., Campenni, M., Haselton, M. G., & Aktipis, A. (2021). An agent-based model of the female rivalry hypothesis for concealed ovulation in humans. <i>Nature Human Behaviour</i>, <i>5</i>(6), 726-735. <a href="https://www.nature.com/articles/s41562-020-01038-9">paper</a>, <a href="https://osf.io/c5pq7/">data and code</a>
 
@@ -30,19 +41,10 @@ Neilands, P., <b>Claessens, S.</b>, Ren, I., Hassall, R., Bastos, A. P., & Taylo
 
 <h3>Pre-prints</h3>
 
-<b>Claessens, S.</b>, & Atkinson, Q. D. (2022). The non-independence of nations and why it matters. <a href="https://psyarxiv.com/m6bsn/">pre-print</a>, <a href="https://osf.io/uywx8/">data and code</a>
+<b>Claessens, S.</b>, Atkinson, Q., & Raihani, N. (2024). Why do people punish? Evidence for a range of strategic concerns. <a href="https://osf.io/preprints/psyarxiv/ys6rm">pre-print</a>, <a href="https://github.com/ScottClaessens/punishStrategies">data and code</a>
 
-<b>Claessens, S.</b>, & Kyritsis, T. (2022). Is partner choice related to prosociality? A cross-national investigation. <a href="https://psyarxiv.com/wvdhk/">pre-print</a>, <a href="https://osf.io/e528t/">data and code</a>
+<b>Claessens, S.</b>, Sibley, C. G., Chaudhuri, A., & Atkinson, Q. D. (2023). Cooperative phenotype predicts political ideology eighteen months later. <a href="https://osf.io/preprints/psyarxiv/rqvke">pre-print</a>, <a href="https://osf.io/ksw3x">code</a>
 
-Kelly, D., <b>Claessens, S.</b>, Sibley, C. G., Chaudhuri, A., & Atkinson, Q. D. (2021). Cooperative phenotype predicts climate change belief and pro-environmental behaviour. <a href="https://psyarxiv.com/qu7v4">pre-print</a>, <a href="https://osf.io/d8t46/">data and code</a>
-
-<b>Claessens, S.</b>, Sibley, C. G., Chaudhuri, A., & Atkinson, Q. D. (2020). Cooperative and conformist behavioural preferences predict the dual dimensions of political ideology. <a href="https://psyarxiv.com/t7rqb/">pre-print</a>, <a href="https://osf.io/dwx8g/">data and code</a>
+Bastos, A. P., <b>Claessens, S.</b>, Nelson, X. J., Welch, D., Atkinson, Q. D., & Taylor, A. H. (2023). Crowdsourcing and phylogenetic modelling reveal parrot tool use is not rare. <a href="https://www.biorxiv.org/content/10.1101/2023.08.14.553302v1.abstract">pre-print</a>, <a href="https://github.com/ScottClaessens/phyloParrot">data and code</a>
 
 Ayers, J. D., Guevara Beltran, D., Alcock, J., Baciu, C., <b>Claessens, S.</b>, Cronk, L., ... Aktipis, A. (2020). How is the COVID-19 pandemic affecting cooperation? <a href="https://psyarxiv.com/pk6jy/">pre-print</a>
-
-
-<h3>Articles in preparation / under review</h3>
-
-Bastos, A. P., <b>Claessens, S.</b>, Nelson, X. J., Welch, D., Atkinson, Q. D., & Taylor, A. H. (in prep). Is tool use really so rare? Crowdsourcing and phylogenetic inference triple the number of potential tool-using parrot species.
-
-Sheehan, O., Watts, J., Gray, R. D., Bulbulia, J., <b>Claessens, S.</b>, Ringen, E. J., & Atkinson, Q. D. (under review). Coevolution of religious and political authority in Austronesian societies. <i>Nature Human Behaviour</i>.
