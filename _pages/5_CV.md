@@ -5,7 +5,7 @@ permalink: /CV/
 description: where I've been and what I've achieved
 ---
 
-Click [**here**]({{ site.url }}/assets/AcademicCV_scott_claessens_2022.05.17.pdf){:target="_blank"} to see my CV in full.
+Click [**here**]({{ site.url }}/assets/AcademicCV_scott_claessens_2023.12.01.pdf){:target="_blank"} to see my CV in full.
 
 <br />
 
@@ -32,6 +32,8 @@ Click [**here**]({{ site.url }}/assets/AcademicCV_scott_claessens_2022.05.17.pdf
 <br />
 
 <u>Teaching Experience</u>
+
+**2023**: Postdoctoral Teaching Fellow at University of Auckland (Auckland, NZ)
 
 **2019 - 2021**: Graduate Teaching Assistant at University of Auckland (Auckland, NZ)
 

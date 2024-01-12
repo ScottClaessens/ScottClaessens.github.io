@@ -11,7 +11,7 @@ description: journal articles, book chapters, and pre-prints
 
 Heiman, S. L., <b>Claessens, S.</b>, Ayers, J. D., Guevara Beltrán, D., Van Horn, A., Hirt, E. R., ... & Todd, P. M. (2023). Descriptive norms caused increases in mask wearing during the COVID-19 pandemic. <i>Scientific Reports</i>, <i>13</i>(1), 11856. <a href="https://www.nature.com/articles/s41598-023-38593-w">paper</a>, <a href="https://github.com/ScottClaessens/covidMaskWearing">data and code</a>
 
-Atkinson, Q. D., <b>Claessens, S.</b>, Fischer, K., Forsyth, G. L., Kyritsis, T., Wiebels, K., Moreau, D. (2023). Being specific about generalisability. <i>Religion, Brain & Behavior</i>. <i>13</i>(3), 284-286. <a href="https://www.tandfonline.com/doi/full/10.1080/2153599X.2022.2070251">paper</a>
+Atkinson, Q. D., <b>Claessens, S.</b>, Fischer, K., Forsyth, G. L., Kyritsis, T., Wiebels, K., & Moreau, D. (2023). Being specific about generalisability. <i>Religion, Brain & Behavior</i>. <i>13</i>(3), 284-286. <a href="https://www.tandfonline.com/doi/full/10.1080/2153599X.2022.2070251">paper</a>
 
 Hoogeveen, S. <i>et al.</i> (2023). A many-analysts approach to the relation between religiosity and well-being. <i>Religion, Brain & Behavior</i>. <i>13</i>(3), 237-283. <a href="https://www.tandfonline.com/doi/full/10.1080/2153599X.2022.2070255">paper</a>, <a href="https://github.com/ScottClaessens/religionWellbeing">data and code</a>
 
