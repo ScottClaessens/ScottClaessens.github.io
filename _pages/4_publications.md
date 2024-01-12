@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Journal articles, book chapters, pre-prints, and works in prep / under review
+description: journal articles, book chapters, pre-prints, and works in prep / under review
 years: [2020]
 ---
 
