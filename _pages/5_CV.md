@@ -5,7 +5,7 @@ permalink: /CV/
 description: where I've been and what I've achieved
 ---
 
-Click [**here**]({{ site.url }}/assets/AcademicCV_scott_claessens_2023.12.01.pdf){:target="_blank"} to see my CV in full.
+Click [**here**]({{ site.url }}/assets/AcademicCV_scott_claessens_2024.05.23.pdf){:target="_blank"} to see my CV in full.
 
 <br />
 
