@@ -5,7 +5,7 @@ permalink: /CV/
 description: where I've been and what I've achieved
 ---
 
-Click [**here**]({{ site.url }}/assets/AcademicCV_scott_claessens_2024.05.23.pdf){:target="_blank"} to see my CV in full.
+Click [**here**]({{ site.url }}/assets/AcademicCV_scott_claessens_2025.02.27.pdf){:target="_blank"} to see my CV in full.
 
 <br />
 
@@ -21,7 +21,9 @@ Click [**here**]({{ site.url }}/assets/AcademicCV_scott_claessens_2024.05.23.pdf
 
 <u>Research Experience</u>
 
-**2021 - current**: Postdoctoral Research Fellow at University of Auckland (Auckland, NZ)
+**2024 - current**: Postdoctoral Research Associate at University of Kent (Canterbury, UK)
+
+**2021 - 2024**: Postdoctoral Research Fellow at University of Auckland (Auckland, NZ)
 
 **2017 (Sep - Dec)**: Research Scholar at Arizona State University (Arizona, US)
 

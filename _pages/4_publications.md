@@ -7,6 +7,10 @@ description: journal articles, book chapters, and pre-prints
 
 <h3>Journal articles</h3>
 
+Guevara Beltran, D., Ayers, J. D., <b>Claessens, S.</b>, Alcock, J., Baciu, C., Cronk, L., ... & Aktipis, A. (2024). Shared fate was associated with sustained cooperation during the COVID-19 pandemic. <i>PLoS ONE</i>, <i>19</i>(9), e0307829. <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0307829">paper</a>, <a href="https://osf.io/gtsbr/">data and code</a>
+
+<b>Claessens, S.</b>, Sibley, C. G., Chaudhuri, A., & Atkinson, Q. D. (2023). Prosocial phenotype predicts political views on hierarchy and redistribution 18 months later. <i>Social Psychological and Personality Science</i>, 19485506241306869. <a href="https://journals.sagepub.com/doi/full/10.1177/19485506241306869">paper</a>, <a href="https://osf.io/ksw3x">code</a>
+
 <b>Claessens, S.</b>, Kyritsis, T., & Atkinson, Q. D. (2023). Cross-national analyses require additional controls to account for the non-independence of nations. <i>Nature Communications</i>, <i>14</i>(1), 5776. <a href="https://www.nature.com/articles/s41467-023-41486-1">paper</a>, <a href="https://github.com/ScottClaessens/crossNationalCorrelations">data and code</a>
 
 Heiman, S. L., <b>Claessens, S.</b>, Ayers, J. D., Guevara Beltrán, D., Van Horn, A., Hirt, E. R., ... & Todd, P. M. (2023). Descriptive norms caused increases in mask wearing during the COVID-19 pandemic. <i>Scientific Reports</i>, <i>13</i>(1), 11856. <a href="https://www.nature.com/articles/s41598-023-38593-w">paper</a>, <a href="https://github.com/ScottClaessens/covidMaskWearing">data and code</a>
@@ -41,10 +45,10 @@ Neilands, P., <b>Claessens, S.</b>, Ren, I., Hassall, R., Bastos, A. P., & Taylo
 
 <h3>Pre-prints</h3>
 
+<b>Claessens, S.</b>, Kyritsis, T., & Atkinson, Q. D. (2024). Controls for non-independence should reflect the data-generating process. <a href="https://osf.io/preprints/psyarxiv/7vj69_v1">pre-print</a>, <a href="https://github.com/ScottClaessens/crossNationalSimulations">code</a>
+
+Syropoulos, S., Crimston, C. R., Markowitz, E., Milfont, T. L., Law, K. F., <b>Claessens, S.</b>, ... & Rottman, J. (2024). Cross-cultural insights into moral expansiveness: Selective valuation of nature versus humans. <a href="https://osf.io/preprints/psyarxiv/3z5aj_v1">pre-print</a>, <a href="https://osf.io/e7h93/">data and code</a>
+
 <b>Claessens, S.</b>, Atkinson, Q., & Raihani, N. (2024). Why do people punish? Evidence for a range of strategic concerns. <a href="https://osf.io/preprints/psyarxiv/ys6rm">pre-print</a>, <a href="https://github.com/ScottClaessens/punishStrategies">data and code</a>
 
-<b>Claessens, S.</b>, Sibley, C. G., Chaudhuri, A., & Atkinson, Q. D. (2023). Cooperative phenotype predicts political ideology eighteen months later. <a href="https://osf.io/preprints/psyarxiv/rqvke">pre-print</a>, <a href="https://osf.io/ksw3x">code</a>
-
 Bastos, A. P., <b>Claessens, S.</b>, Nelson, X. J., Welch, D., Atkinson, Q. D., & Taylor, A. H. (2023). Crowdsourcing and phylogenetic modelling reveal parrot tool use is not rare. <a href="https://www.biorxiv.org/content/10.1101/2023.08.14.553302v1.abstract">pre-print</a>, <a href="https://github.com/ScottClaessens/phyloParrot">data and code</a>
-
-Ayers, J. D., Guevara Beltran, D., Alcock, J., Baciu, C., <b>Claessens, S.</b>, Cronk, L., ... Aktipis, A. (2020). How is the COVID-19 pandemic affecting cooperation? <a href="https://psyarxiv.com/pk6jy/">pre-print</a>
