@@ -36,7 +36,7 @@ We can also ask questions such as:
 + Do individuals follow account-keeping, reciprocal sharing rules when risks are more predictable?
 + To what extent is empathy required for need-based transfers to be effective?
 
-The Survival Game is an open-source economic game, created in [oTree](http://www.otree.org/){:target="_blank"}, that can integrate with MTurk for online experiments. [**Play a 2-player demo version of the game here**](https://survivalgame-demo.herokuapp.com/demo/){:target="_blank"}, or download the code itself from my [**GitHub repository**](https://github.com/ScottClaessens/SurvivalGameDemo){:target="_blank"}.
+The Survival Game is an open-source economic game, created in [oTree](http://www.otree.org/){:target="_blank"}, that can integrate with MTurk for online experiments. You can download the code for the demo version of the Survival Game [**here**](https://github.com/ScottClaessens/SurvivalGameDemo){:target="_blank"}.
 
 <br />
 
